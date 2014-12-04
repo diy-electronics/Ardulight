@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11637,8 +11637,8 @@ DIN A5, landscape with doc field</description>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="22"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="22"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="PWR" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
+<part name="PWR" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="BLUE"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="82R"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
@@ -11650,8 +11650,8 @@ DIN A5, landscape with doc field</description>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="RX" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
+<part name="RX" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="YLW"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="150R"/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="GND" library="wirepad" deviceset="SMD5" device=""/>
 <part name="DAT" library="wirepad" deviceset="SMD5" device=""/>
@@ -11752,8 +11752,8 @@ DIN A5, landscape with doc field</description>
 <attribute name="VALUE" x="156.845" y="78.105" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="RX" gate="G$1" x="142.24" y="53.34" smashed="yes" rot="R270">
-<attribute name="NAME" x="143.383" y="54.864" size="1.778" layer="95"/>
-<attribute name="VALUE" x="137.668" y="47.625" size="1.778" layer="96"/>
+<attribute name="NAME" x="143.002" y="54.102" size="1.778" layer="95"/>
+<attribute name="VALUE" x="143.002" y="51.054" size="1.778" layer="96"/>
 </instance>
 <instance part="R5" gate="G$1" x="154.94" y="53.34" rot="R180"/>
 <instance part="P+7" gate="1" x="167.64" y="53.34" smashed="yes" rot="R270">
@@ -12070,6 +12070,17 @@ DIN A5, landscape with doc field</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,70.7983,54.61,PWR,,,,,"/>
+<approved hash="113,1,140.97,54.3475,RX,,,,,"/>
+<approved hash="113,1,48.7089,99.06,GND,,,,,"/>
+<approved hash="113,1,48.2537,101.6,DAT,,,,,"/>
+<approved hash="113,1,48.3519,104.14,CLK,,,,,"/>
+<approved hash="113,1,48.3831,114.3,RST,,,,,"/>
+<approved hash="113,1,49.1463,111.76,MISO,,,,,"/>
+<approved hash="113,1,91.971,66.571,FRAME2,,,,,"/>
+<approved hash="113,1,48.5081,116.84,VCC,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
