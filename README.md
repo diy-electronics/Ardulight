@@ -8,6 +8,9 @@ Example-Video:<br />
 " target="_blank"><img src="http://img.youtube.com/vi/HK8IQF8XRPc/0.jpg" 
 alt="Example" width="300" /></a>
 
+Images
+------
+
 <img src="https://github.com/jneureuther/Ardulight/blob/master/img/pcb.jpg" width="300px"/>&nbsp;&nbsp;&nbsp;<img src="https://github.com/jneureuther/Ardulight/blob/master/img/pcb_back.jpg" width="300px" />
 
 Assembly
