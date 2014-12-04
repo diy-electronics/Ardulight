@@ -6,10 +6,9 @@ Ardu(ino)(Ambi)light: An arduino based ambilight controller for WS2801 based dig
 Example-Video:<br />
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=HK8IQF8XRPc
 " target="_blank"><img src="http://img.youtube.com/vi/HK8IQF8XRPc/0.jpg" 
-alt="Example" width="240" height="180" border="10" /></a>
+alt="Example" width="300" /></a>
 
-![](../master/img/pcb.jpg)
-![](../master/img/pcb_back.jpg)
+<img src="https://github.com/jneureuther/Ardulight/blob/master/img/pcb.jpg" width="300px"/>&nbsp;&nbsp;&nbsp;<img src="https://github.com/jneureuther/Ardulight/blob/master/img/pcb_back.jpg" width="300px" />
 
 Assembly
 --------
