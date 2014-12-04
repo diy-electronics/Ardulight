@@ -8,6 +8,9 @@ Example-Video:<br />
 " target="_blank"><img src="http://img.youtube.com/vi/HK8IQF8XRPc/0.jpg" 
 alt="Example" width="240" height="180" border="10" /></a>
 
+![](../master/img/pcb.jpg)
+![](../master/img/pcb_back.jpg)
+
 Assembly
 --------
 
