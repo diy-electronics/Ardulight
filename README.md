@@ -3,22 +3,22 @@ Ardulight
 
 An arduino based ambilight controller for WS2801 based digital rgb led pixels.
 
-Example-Video: https://www.youtube.com/watch?v=HK8IQF8XRPc
+Example-Video:<br />
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=HK8IQF8XRPc
+" target="_blank"><img src="http://img.youtube.com/vi/HK8IQF8XRPc/0.jpg" 
+alt="Example" width="240" height="180" border="10" /></a>
 
 Assembly
 --------
 
-Assembly instructions including a BOM (bill of materials) can be found [here](../master/assembly).
-
+Assembly instructions including a BOM (bill of materials) can be found [here](../master/assembly).<br />
 The pcb has to be soldered by hot air or by reflow due to the qfp package of the atmega32u4.
 
 Firmware
 --------
 
-The ambilight controller works with the [Adalight Firmware from Adafruit](https://github.com/adafruit/Adalight/tree/master/Arduino/LEDstream).
-
-You can flash this firmware using an isp-programmer.
-
+The ambilight controller works with the [Adalight Firmware from Adafruit](https://github.com/adafruit/Adalight/tree/master/Arduino/LEDstream).<br />
+You can flash this firmware using an isp-programmer.<br />
 Alternatively you can first flash the arduino leonardo bootloader with an isp-programmer and then flash the firmware directly over usb since the ambilight controller is compatible with the arduino leonardo.
 
 Software
