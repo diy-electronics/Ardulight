@@ -1,7 +1,7 @@
 Ardulight
 =========
 
-An arduino based ambilight controller for WS2801 based digital rgb led pixels.
+Ardu(ino)(Ambi)light: An arduino based ambilight controller for WS2801 based digital rgb led pixels.
 
 Example-Video:<br />
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=HK8IQF8XRPc
