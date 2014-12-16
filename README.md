@@ -19,6 +19,13 @@ Assembly
 Assembly instructions including a BOM (bill of materials) can be found [here](../master/pcb).<br />
 The pcb has to be soldered by hot air or by reflow due to the qfp package of the atmega32u4.
 
+Wiring
+------
+
+For a detailed wiring guide look [here](https://learn.adafruit.com/adalight-diy-ambient-tv-lighting/wiring-1).<br />
+The LED-Strip has to be powered from an external power source, using e.g. a connector like [this](https://www.adafruit.com/products/368).<br />
+You only have to connect GND, CLK (SCK) and DAT (MOSI).  
+
 Firmware
 --------
 
