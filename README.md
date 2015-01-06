@@ -38,6 +38,8 @@ Software
 
 The ambilight controller works with [Prismatik from woodenshark](https://github.com/woodenshark/Lightpack/releases/latest) (Alternative download [here](http://lightpack.tv/downloads)).
 
+To fix the systems device name and permissions for Ardulight on linux systems, you can add [the udev rule](98-ardulight.rules) to `/etc/udev/rules.d/`. The device name is then `/dev/ttyARDULIGHT` and is owned by `users (mode 0666)`.
+
 License
 -------
 

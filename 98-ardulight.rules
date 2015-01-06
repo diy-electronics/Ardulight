@@ -1,0 +1,16 @@
+# /etc/udev/rules.d/98-ardulight.rules
+#
+# Fixes the name for ardulight
+#
+# Created on: 06.01.15
+#
+# Usage:
+#
+# $ sudo cp lightpack/93-lightpack.rules /etc/udev/rules.d/
+# $ sudo restart udev
+#
+# Please write an issue on: [github](https://github.com/diy-electronics/Ardulight/issues) if you have problems
+
+KERNEL=="ttyACM*", ATTRS{idVendor}=="2341", ATTRS{idProduct}=="8036", SYMLINK+="ttyARDULIGHT", ACTION=="add", RUN+="/usr/bin/logger 'ardulight plugged in", GROUP="users", MODE="0666"
+
+
